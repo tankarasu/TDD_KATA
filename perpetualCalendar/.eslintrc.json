@@ -33,7 +33,7 @@
     "overrides": [
       {
         "files": [
-          "**/test/**/*.spec.ts"
+          "**/*.spec.ts"
         ],
         "rules": {
           "no-undef": "off"

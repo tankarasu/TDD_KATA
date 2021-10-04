@@ -35,4 +35,3 @@ export function returnYearIndex(year: number): number {
 > First we can use %100 , then we handle the last two nummbers, then we can use a switch case for example.
 
 The process will be similarly same with the other functions. At the end the test suite will be an handbook or a documentation.
- 

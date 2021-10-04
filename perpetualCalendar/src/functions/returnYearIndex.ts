@@ -1,3 +1,8 @@
+/**
+ * @description Returns the index of the year in the array of years
+ * @param year The year to find the index of
+ * @returns number - The index of the year
+ */
 export function returnYearIndex(year: number): number {
   switch (year % 100) {
     case 0: case 6: case 17: case 23: case 28: case 34: case 45:
