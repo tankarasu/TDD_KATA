@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strictNullChecks": true,
+    "target": "es2015",
+    "module": "es2015",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDir": "./",
+    "typeRoots": [
+      "node_modules/@types",
+      "./types"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+  },
+  "include": [
+    "src", "src/functions", "./test"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
